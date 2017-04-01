@@ -8,6 +8,7 @@ make
 ```
 # Running
 USAGE: jlbot x y
+
 The current working directory must the same as the pnm file.
 ```bash
 cd <project_home>/resources
