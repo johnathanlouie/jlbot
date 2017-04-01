@@ -30,7 +30,7 @@
 namespace jlbot {
 
   Navigator::Navigator(WorldCoordinates start, WorldCoordinates goal) : model_("hospital_section.pnm") {
-    model_.Save("0_scaled_hospital_section.pnm");
+    model_.Save("0_scaled.pnm");
     WorldModel *full_path_model = new WorldModel(model_);
     WorldModel *relaxed_path_model = new WorldModel(model_);
     GrowObstacles(4);
